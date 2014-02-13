@@ -1,0 +1,52 @@
+	{% extends "layout.html" %}
+	{% block content %}
+	<form>
+	 	<fieldset>
+	  <form>
+					  <div class="row">
+					    <div class="large-6 columns">
+					      <label>Nome completo</label>
+					      <input type="text" placeholder="Digite seu nome" />
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="large-4 medium-4 columns">
+					      <div class="row collapse">
+					        <label>Email</label>
+					        <div class="small-9 columns">
+					          <input type="text" placeholder="123456@example" />
+					        </div>
+					        <div class="small-3 columns">
+					          <span class="postfix">.com</span>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="large-6 columns">
+					      <label>Segmento da empresa</label>
+					      <select>
+					        <option value="husker">Administração</option>
+					        <option value="starbuck">Vendas</option>
+					        <option value="hotdog">Tecnologia</option>
+					        <option value="apollo">Alimenticio</option>
+					      </select>
+					    </div>
+					  </div>
+					  <div class="row">
+					    <div class="large-6 medium-6 columns">
+					      <label>Sexo</label>
+					      <input type="radio" name="m_or_f" value="male" id="masculico"><label for="masculino">Masculino</label>
+					      <input type="radio" name="m_or_f" value="female" id="feminino"><label for="feminino">Feminino</label>
+					    </div>
+					</form>
+	      </div>     
+
+	      <div class="large-4 medium-4 columns">
+	        <a href="#" class="small round button">Enviar</a><br/>           
+	      </div>
+	    </div>
+	    
+	</fieldset>
+
+	{% endblock %}

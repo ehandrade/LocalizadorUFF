@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+
+<style>
+#map {height : 400px;}
+</style>
+
+<div class="row">
+
+    <ul class="right" style="width: 100px">
+    <br></br>
+    <div class="large-6 columns" >
+    <a href="#" class="button [radius round]" >ACHAR</a>
+  </div>
+  </ul>
+
+      <fieldset>
+
+        <div class"large-12 columns">
+          <div class="panel">
+<div id="map" class="leaflet-container leaflet-fade-anim" tabindex="0" style="position: relative;"><div class="leaflet-map-pane" style="-webkit-transform: translate3d(-8px, 0px, 0);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container leaflet-zoom-animated" style=""></div><div class="leaflet-tile-container leaflet-zoom-animated" style=""><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148733.png" style="height: 256px; width: 256px; left: 768px; top: 243px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148733(1).png" style="height: 256px; width: 256px; left: 512px; top: 243px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148732.png" style="height: 256px; width: 256px; left: 768px; top: -13px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148734.png" style="height: 256px; width: 256px; left: 768px; top: 499px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148732(1).png" style="height: 256px; width: 256px; left: 512px; top: -13px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148734(1).png" style="height: 256px; width: 256px; left: 512px; top: 499px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148733(2).png" style="height: 256px; width: 256px; left: 256px; top: 243px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148733(3).png" style="height: 256px; width: 256px; left: 1024px; top: 243px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148734(2).png" style="height: 256px; width: 256px; left: 1024px; top: 499px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148732(2).png" style="height: 256px; width: 256px; left: 1024px; top: -13px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148734(3).png" style="height: 256px; width: 256px; left: 256px; top: 499px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148732(3).png" style="height: 256px; width: 256px; left: 256px; top: -13px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148733(4).png" style="height: 256px; width: 256px; left: 1280px; top: 243px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148733(5).png" style="height: 256px; width: 256px; left: 0px; top: 243px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148732(4).png" style="height: 256px; width: 256px; left: 1280px; top: -13px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148734(4).png" style="height: 256px; width: 256px; left: 0px; top: 499px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148732(5).png" style="height: 256px; width: 256px; left: 0px; top: -13px;"><img class="leaflet-tile leaflet-tile-loaded" src="./lucas_files/148734(5).png" style="height: 256px; width: 256px; left: 1280px; top: 499px;"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"></div><div class="leaflet-overlay-pane"><svg class="leaflet-zoom-animated" width="1952" height="878" viewBox="-301 -139 1952 878" style="-webkit-transform: translate3d(-301px, -139px, 0);"><g><path stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" stroke="#136AEC" stroke-opacity="0.5" stroke-width="2" fill="#136AEC" fill-opacity="0.15" class="leaflet-clickable" d="M675,245A55,55,0,1,1,674.9,245 z"></path></g><g><path stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" stroke="#136AEC" stroke-opacity="0.9" stroke-width="2" fill="#2A93EE" fill-opacity="0.7" d="M675,295A5,5,0,1,1,674.9,295 z" class="leaflet-clickable"></path></g></svg></div><div class="leaflet-marker-pane"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in leaflet-disabled" href="http://sheltered-fortress-6869.herokuapp.com/#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="http://sheltered-fortress-6869.herokuapp.com/#" title="Zoom out">-</a></div><div class="leaflet-control-locate leaflet-bar leaflet-control active"><a class="leaflet-bar-part leaflet-bar-part-single" href="http://sheltered-fortress-6869.herokuapp.com/#" title="Show me where I am"></a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | Map data © <a href="http://openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com/">CloudMade</a></div></div></div></div>
+          </div>
+        </div>
+
+        <style>
+
+</style>
+      </fieldset> 
+      <script>
+      $(document).foundation();
+
+      var map = L.map('map').setView([-23.5261948, -46.6393241], 18);
+
+   L.tileLayer('http://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+  }).addTo(map);
+   
+   // Cria o marcador para o mapa.
+   var marker = L.marker([-23.5261948, -46.6393241]).addTo(map);
+
+   // Cria o popup para o marcador
+   marker.bindPopup('<b>Hello World!</b>');
+
+   // Atribui o evento de click,
+   // ao clicar no marcador, abre o Popup
+   marker.on('click', function() {
+    this.openPopup()
+   })
+   </script>
+
+   {% endblock %} 

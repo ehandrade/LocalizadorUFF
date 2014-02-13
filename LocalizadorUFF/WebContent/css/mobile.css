@@ -1,0 +1,30 @@
+.container {
+  width: 96%;
+}
+
+header h1 {
+  text-align: center;
+}
+header h1 img {
+  max-width: 50%;
+}
+.sacola {
+  display: none;
+}
+.menu-setores {
+  position: static;
+  text-align: center;
+}
+
+#imagem{
+	background-image: url(../img/mapaMobile.jpg);
+}
+
+body {
+	width: 96%;
+	background-color: #000000;
+  }
+
+  fieldset{
+  	margin: 1.0rem 0;
+  }
