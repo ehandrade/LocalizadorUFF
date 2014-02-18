@@ -1,48 +1,44 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-  	<link rel="stylesheet" href="../css/foundation.css" /><meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/app.css">
-    <script src="../js/vendor/modernizr.js"/>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/foundation.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/app.css">
+<script src="js/vendor/modernizr.js"></script>
 
-  	{% block head %}
-  	<title>{% block title %} Localização-Amigos{% endblock %} </title>
-  	{% endblock %}
-  </head>
-  <body>
-  	 <nav class="top-bar" data-topbar>
-    <section class="top-bar-section">
+{% block head %}
+<title>{% block title %}Localização-Amigos{% endblock %}</title>
+{% endblock %}
+</head>
+<body>
+	<nav class="top-bar" data-topbar>
+		<section class="top-bar-section">
 
-       
-               
-       </fieldset>
-            </form>
-          </ul>
-        </li>
-      </ul>
+			<!-- Left Nav Section -->
+			<ul class="left">
+				<li><a href="index">Home</a></li>
+				<li><a href="Cadastro">Cadastro</a></li>
+				<li><a href="Localizacao">Localização</a></li>
+				<li><a href="QuemSomos">Quem Somos</a></li>
+			</ul>
+		</section>
+	</nav>
 
-  <!-- Left Nav Section -->
-    	<ul class="left">
-        <li><a href="index">Home</a></li>
-        <li><a href="Cadastro">Cadastro</a></li>
-        <li><a href="Localizacao">Localização</a></li>
-        <li><a href="QuemSomos">Quem Somos</a></li>
-      </ul>
-    </section>
-  </nav>
+	<div id="content">
+		{% block content %}
+		<h1>Content</h1>
+		{% endblock %}
+	</div>
 
-      <div id="content">{% block content %} <h1>Content</h1> {% endblock %} 
-  	</div>
+	<script src="../js/vendor/jquery.js"></script>
+	<script src="../js/foundation.min.js"></script>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/foundation.min.js"></script>
 
-  	  <script src="static/js/vendor/jquery.js"></script>
-      <script src="static/js/foundation.min.js"></script>
-      <script src="static/js/jquery.js"></script>
-  	   <script src="static/js/foundation.min.js"></script>
-  	
 
-  </body>
-  <script>
-  	$(document).foundation();
-  </script>
-  </html>
+</body>
+<script>
+	$(document).foundation();
+</script>
+</html>
